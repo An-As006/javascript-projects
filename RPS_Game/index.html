@@ -4,15 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROCK PAPER SCISSORS</title>
+
+    <!--Google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=Oswald:wght@500&family=Roboto:wght@100&family=Sen:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!--CSS File-->
+    <link rel="stylesheet" href="style.css">
+
+   <!--Box icon link-->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+   <!--Remix icon link-->
+   <link
+   href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+   rel="stylesheet"/>
+
+   
 </head>
-<body>
-    <h2>Computer Choice : <span id="computer-choice"></span></h2>
-    <h2>Your Choice : <span id="user-choice"></span></h2>
+<body class="body">
+    
+    <header>
+        <a href="#" class="logo">RoCk The <span id="spanA">PaPer</span></a>
+      
+
+      <ul class="navlist">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Sevice</a></li>
+          <li><a href="#contact">contact</a></li>
+      </ul>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+<div class="main">
+    <h2>Computer Choice : <span class="computer-choice" id="computer-choice"></span></h2>
+    <h2>Your Choice : <span class="user-choice" id="user-choice"></span></h2>
     <h2>Result : <span id="result"></span></h2>
 
     <button id="Rock">ROCK</button>
     <button id="Paper">PAPER</button>
     <button id="Scissors">SCISSORS</button>
+</div>
+
+    <!--Js File-->
     <script src="app.js" lang="javascript"></script>
+
+    
+
 </body>
 </html>
